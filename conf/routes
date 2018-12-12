@@ -2,6 +2,6 @@
 # This file defines all application routes (Higher priority routes first)
 
 # App
-GET       /ping                  controllers.AppController.ping
-HEAD      /ping                  controllers.AppController.ping
-OPTIONS   /ping                  controllers.AppController.ping
+GET       /ping                  controllers.WorldController.ping
+HEAD      /ping                  controllers.WorldController.ping
+OPTIONS   /ping                  controllers.WorldController.ping
