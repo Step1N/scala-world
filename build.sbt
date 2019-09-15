@@ -12,7 +12,8 @@ libraryDependencies ++= Seq(ws,
   "commons-io" % "commons-io" % "2.5",
   "com.typesafe.akka" % "akka-actor_2.11" % "2.3.16",
   "com.github.wnameless" % "json-flattener" % "0.4.0",
-  "com.amazonaws" % "aws-java-sdk-ssm" % "1.11.98"
+  "com.amazonaws" % "aws-java-sdk-ssm" % "1.11.98",
+  "io.swagger" %% "swagger-scala-module" % "1.0.3"
 )
 
 
